@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function UseHookWithObj() {
+function UseStateWithObj() {
   const [name, setName] = useState({
     firstName: "",
     lastName: "",
@@ -25,4 +25,4 @@ function UseHookWithObj() {
   );
 }
 
-export default UseHookWithObj;
+export default UseStateWithObj;
