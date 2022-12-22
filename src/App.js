@@ -1,6 +1,7 @@
 import "./App.css";
-import ClassUseEffectIncorrectDep from "./components/ClassUseEffectIncorrectDep";
-import UseEffectIncorrectDep from "./components/UseEffectIncorrectDep";
+import DataFetchUseEffect from "./components/DataFetchUseEffect";
+// import ClassUseEffectIncorrectDep from "./components/ClassUseEffectIncorrectDep";
+// import UseEffectIncorrectDep from "./components/UseEffectIncorrectDep";
 // import UseEffectCleanup from "./components/UseEffectCleanup";
 // import UseEffectOnce from "./components/UseEffectOnce";
 // import ClassUseEffectOnce from "./components/ClassUseEffectOnce";
@@ -25,8 +26,9 @@ function App() {
       {/* <ClassUseEffectOnce /> */}
       {/* <UseEffectOnce /> */}
       {/* <UseEffectCleanup /> */}
-      <ClassUseEffectIncorrectDep />
-      <UseEffectIncorrectDep />
+      {/* <ClassUseEffectIncorrectDep /> */}
+      {/* <UseEffectIncorrectDep /> */}
+      <DataFetchUseEffect />
     </div>
   );
 }
